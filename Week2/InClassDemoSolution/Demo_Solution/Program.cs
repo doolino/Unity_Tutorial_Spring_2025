@@ -220,7 +220,7 @@ LinkedListNode<int> head = myLinkedList.First;
 LinkedListNode<int> tail = myLinkedList.Last;
 
 // Return the value of the node right after the head node
-int value = head.Next.Value;
+int myValue = head.Next.Value;
 // Remove the first occurrence of 2
 node = myLinkedList.Find(2);
 myLinkedList.Remove(node);

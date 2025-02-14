@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\local_admin\\.nuget\\packages\\": {}
+    "C:\\Users\\LGPC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
+      "projectUniqueName": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
       "projectName": "Demo_Solution",
-      "projectPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-      "packagesPath": "C:\\Users\\local_admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
+      "projectPath": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
+      "packagesPath": "C:\\Users\\LGPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\local_admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LGPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\local_admin\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\LGPC\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
