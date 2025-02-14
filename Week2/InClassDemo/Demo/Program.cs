@@ -2,6 +2,8 @@
 //////////////////// Arrays /////////////////////////
 
 // Declaration
+Array<int> myArray = new Array<int>() {1,2,3};
+
 
 // Initialization
 
