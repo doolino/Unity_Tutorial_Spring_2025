@@ -1,5 +1,5 @@
 ﻿/* Problem #1
- * Create a program that manages a student's scores. 
+ * Create a program that manages a student's scores.
  * Try adding a single score and multiple scores at once.
  * Display the total number of scores stored.
  * Check if a specific score exists.
@@ -8,10 +8,30 @@
  * Clear all scores.
  */
 
+List<int> studentScores = new List<int>([30,40,50,90,95,98]);
+studentScores.Add(10); //[30,40,50,90,95,98,10]
+studentScores.AddRange(new List <int>
+{
+ new int(40),
+ new int(50),
+ new int(60),
+});
 
+Console.WriteLine($"Total: {studentScores.Count}");
 
+studentScores.Contains(40);
+Console.WriteLine($"50?: {studentScores.Contains(40)}");
 
+float thrshold = 60;
+float firstScoreAbove = studentScores.Find(x => x < 60);
+Console.WriteLine($"Scores above 60: {firstScoreAbove}");
 
+List<int> scoresBelowThreshold = studentScores.FindAll(x => x < 60);
+Console.WriteLine(string.Join(',', scoresBelowThreshold));
+
+studentScores.Sort();
+studentScores.RemoveAt(0);
+studentScores.Clear();
 
 /* Problem #2
  * Create a program that manages a student gradebook, where each student's name is associated with their GPA.
@@ -74,6 +94,7 @@
  * Write a function that removes the smallest value from a given list of integers in place (modifying the original list).
  * Test your function
  */
+
 
 
 

@@ -211,19 +211,20 @@ myLinkedList.Clear();
 //////////////////// Stack /////////////////////////
 
 // Declare and Initialize a stack
-
+Stack<int> myStack = new Stack<int>([1,2,3,4]);
 // Get the number of elements in the stack
-
+Console.WriteLine(myStack.Count); //3
 // check if 5 exists in the stack
-
+myStack.Contains(5);
 // Return the top element in the stack
-
+int myValue = myStack.Peek();
 // Remove and return the top element in the stack
-
+int myValue = myStack.Pop(); // [1,2]
 // Add 5 to the stack
-
+myStack.Push(5);
 // Convert the current stack into an array 
-
+int[] stackArray = myStack.ToArray(); // [5,2,1]
+Console.WriteLine(string.Join(',', stackArray));
 // Copy elements of current stack into a new array
 
 // Remove all elements from the stack
@@ -231,32 +232,50 @@ myLinkedList.Clear();
 //////////////////// Queue /////////////////////////
 
 // Declare and initialize a queue
+Queue<int> myQueue = new Queue<int.( [1, 2, 3]);
 
 // Get the number of elements in the queue
-
+myQueue.Count
 // check if 5 exists in the queue
-
+myQueue.Contains(5);
 // Return the element at the front of the queue
-
+int front = myQueue.Peek();
 // Remove and return the element at the front of the queue
-
+front = myQueue.Dequeue();
 // Add 5 to the queue
-
+myQueue.Enqueue(5);
 // Convert the current queue into an array 
-
+int[] queueArray = myQueue.ToArray();
 // Copy elements of current queue into a new array
-
+myQueue.CopyTo(queueArray, 0);
 // Remove all elements from the queue
-
+myQueue.Clear();
 
 
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.
-// Then, call the function
+//Definition:
+int Sum(int numone, int numtwo)
+{
+    int summation = numone + numtwo;
+    return summation;
+}
 
 
 // Write a void function that prints messages on console
+void Print(string input)
+{
+    Console.WriteLine(input);
+}
 
-
+Print("Hello");
+Print("How are you?");
 // Write a function that greet users with an optional parameter
+void Greet(string name = "User")
+{
+    Console.WriteLine($"HEllO {name}");
+}
+
+Greet();
+Greet("Aditya");

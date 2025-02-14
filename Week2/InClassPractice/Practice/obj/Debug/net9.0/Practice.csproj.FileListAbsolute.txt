@@ -1,0 +1,5 @@
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassPractice\Practice\obj\Debug\net9.0\Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassPractice\Practice\obj\Debug\net9.0\Practice.AssemblyInfoInputs.cache
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassPractice\Practice\obj\Debug\net9.0\Practice.AssemblyInfo.cs
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassPractice\Practice\obj\Debug\net9.0\Practice.csproj.CoreCompileInputs.cache
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassPractice\Practice\obj\Debug\net9.0\Practice.sourcelink.json
