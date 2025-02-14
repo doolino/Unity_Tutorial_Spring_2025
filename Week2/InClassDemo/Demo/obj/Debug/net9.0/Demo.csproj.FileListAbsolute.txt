@@ -1,0 +1,15 @@
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.AssemblyInfoInputs.cache
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.AssemblyInfo.cs
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.sourcelink.json
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.exe
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.deps.json
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.runtimeconfig.json
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.dll
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.pdb
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.dll
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\refint\Demo.dll
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.pdb
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
+C:\Users\avpra\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025025\Week2\InClassDemo\Demo\obj\Debug\net9.0\ref\Demo.dll

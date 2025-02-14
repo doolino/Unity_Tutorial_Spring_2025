@@ -74,6 +74,42 @@
    
  */
 
+float currBalance = 0;
+Console.WriteLine(" ** 1)Check Balance\n    ** 2)Deposit Money\n    ** 3)Withdraw Money (ensure balance doesn't go negative)\n    ** 4)Exit");
+string firstSelect = Console.ReadLine();
+
+switch (firstSelect)
+{
+  case "1":
+    Console.WriteLine($"You have {currBalance}");
+    break;
+  case "2":
+    Console.WriteLine("How much will you deposit?");
+    float depositAmount = float.Parse(Console.ReadLine());
+    currBalance += depositAmount;
+    Console.WriteLine($"You deposited {depositAmount}. New balance: {currBalance}");
+    break;
+  case "3":
+    Console.WriteLine("How much will you withdraw?");
+    float withdrawAmount = float.Parse(Console.ReadLine());
+    if (currBalance - withdrawAmount < 0)
+    {
+      Console.WriteLine("Withdrawal exceeds held funds. Ur broke!");
+    }
+    else
+    {
+      currBalance -= withdrawAmount;
+      Console.WriteLine($"You withdrew {withdrawAmount}. New balance: {currBalance}");
+    }
+    break;
+  case "4":
+    Console.WriteLine("Good-bye!");
+    break;
+  default:
+    Console.WriteLine("Invalid option. Please select a valid menu choice.");
+    break;
+}
+
 
 
 
@@ -93,9 +129,18 @@
  * Solve this problem using array methods and also solve it without using array methods.
  */
 
+/* With Array Method */
 
+int[] array1 = [1, 2, 3, 4];
+int[] array2 = [5, 6, 7, 8];
+int[] array3 = new int[array1.Length + array2.Length];
 
+array1.CopyTo(array3,0);
+array2.CopyTo(array3,array1.Length);
+Array.Sort(array3);
+Console.WriteLine(array3);
 
+/* Without Array Method */
 
 
 
@@ -111,12 +156,11 @@
  * Solve this problem using array methods and also solve it without using array methods.
  */
 
-
-
-
-
-
-
+int[] array4 = [2,2,2,2,2,5,2,2,2,2,5,2];
+int target = 5;
+int FirstIndex = Array.FindIndex(array4, target);
+int LastIndex = Array.LastIndexOf(array4, target);
+Console.WriteLine("Concatenated Indexes: " + FirstIndex + "" + LastIndex);
 
 
 /* Problem 3
