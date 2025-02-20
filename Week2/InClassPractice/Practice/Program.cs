@@ -1,5 +1,5 @@
 ﻿/* Problem #1
- * Create a program that manages a student's scores.
+ * Create a program that manages a student's scores. 
  * Try adding a single score and multiple scores at once.
  * Display the total number of scores stored.
  * Check if a specific score exists.
@@ -8,30 +8,28 @@
  * Clear all scores.
  */
 
-List<int> studentScores = new List<int>([30,40,50,90,95,98]);
-studentScores.Add(10); //[30,40,50,90,95,98,10]
-studentScores.AddRange(new List <int>
-{
- new int(40),
- new int(50),
- new int(60),
-});
+List<float> scores = new List<float>() { 45.5f, 50f, 90f };
 
-Console.WriteLine($"Total: {studentScores.Count}");
+scores.Add(80f);
+scores.AddRange(new List<float>(){35f, 99f});
+scores.AddRange([100f, 35f]);
 
-studentScores.Contains(40);
-Console.WriteLine($"50?: {studentScores.Contains(40)}");
+Console.WriteLine($"Total: {scores.Count}");
 
-float thrshold = 60;
-float firstScoreAbove = studentScores.Find(x => x < 60);
-Console.WriteLine($"Scores above 60: {firstScoreAbove}");
+Console.WriteLine($"50 ? {scores.Contains(50f)}");
 
-List<int> scoresBelowThreshold = studentScores.FindAll(x => x < 60);
+float thrshold = 60f;
+
+float firstScoreAbove = scores.Find(x => x > 60);
+Console.WriteLine($"Score above 60: {firstScoreAbove}");
+
+List<float> scoresBelowThreshold = scores.FindAll(x => x < 60);
 Console.WriteLine(string.Join(',', scoresBelowThreshold));
 
-studentScores.Sort();
-studentScores.RemoveAt(0);
-studentScores.Clear();
+scores.Sort();
+scores.RemoveAt(0);
+
+scores.Clear();
 
 /* Problem #2
  * Create a program that manages a student gradebook, where each student's name is associated with their GPA.
@@ -43,6 +41,7 @@ studentScores.Clear();
  * ClearGradebook: Removes all students from the gradebook.
  */
  
+
 
 
 
@@ -94,7 +93,6 @@ studentScores.Clear();
  * Write a function that removes the smallest value from a given list of integers in place (modifying the original list).
  * Test your function
  */
-
 
 
 
