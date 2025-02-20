@@ -142,6 +142,37 @@ Console.WriteLine(array3);
 
 /* Without Array Method */
 
+int[] array1 = [1, 2, 3, 4];
+int[] array2 = [9, 8, 7, 6];
+int[] array3 = new int[array1.Length + array2.Length];
+
+for (int i = 0; i < array1.Length; i++)
+{
+  array3[i] = array1[i];
+}
+for (int i = 0; i < array2.Length; i++)
+{
+  array3[i + array1.Length] = array1[i]; //Merged
+}
+
+int temp = 0;
+for (int write = 0; write < array3.Length; write++) //Ref'd this: https://stackoverflow.com/questions/14768010/simple-bubble-sort-c-sharp
+{
+  for (int sort = 0; sort < array3.Length - 1;)
+  {
+    if (array3[sort] > array3[sort + 1])
+    {
+      temp = array3[sort + 1];
+      array3[sort + 1] = array3[sort];
+      array3[sort] = temp;
+    }
+  }
+}
+foreach (int val in array3)
+{
+  Console.WriteLine(val);
+}
+//
 
 
 /* Problem 2
@@ -160,7 +191,7 @@ int[] array4 = [2,2,2,2,2,5,2,2,2,2,5,2];
 int target = 5;
 int FirstIndex = Array.FindIndex(array4, target);
 int LastIndex = Array.LastIndexOf(array4, target);
-Console.WriteLine("Concatenated Indexes: " + FirstIndex + "" + LastIndex);
+Console.WriteLine("Concatenated Indices: " + FirstIndex + "" + LastIndex);
 
 
 /* Problem 3
